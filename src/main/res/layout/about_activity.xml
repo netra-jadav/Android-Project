@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:textColor="@color/white"
+        android:textSize="34dp"
+        android:layout_marginLeft="130dp"
+        android:textStyle="bold"
+        />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/aboutt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scan Your Deal - an application that provides your meal on your doorsteps. \n\n \t\t --Developed by Netra Jadav"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="500dp"
+        />
+
+    <ImageButton
+        android:id="@+id/aboutus"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/ic_baseline_person_pin_circle_24"
+        />
+
+    <ImageButton
+        android:id="@+id/service"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="130dp"
+        android:src="@drawable/ic_baseline_miscellaneous_services_24"
+        />
+
+    <ImageButton
+        android:id="@+id/profile"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="230dp"
+        android:src="@drawable/ic_baseline_person_24"
+        />
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="320dp"
+        android:src="@drawable/ic_baseline_home_24"
+        />
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".SignUpActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="55dp"
+        app:lottie_rawRes="@raw/beverage"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="290dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:hint="Enter Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="340dp"
+        android:drawableLeft="@drawable/ic_baseline_email_24"
+        android:hint="Enter Email"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/et3"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="390dp"
+        android:drawableLeft="@drawable/ic_baseline_contact_phone_24"
+        android:hint="Enter Number"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <Button
+        android:id="@+id/signupButton"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:text="SIGNUP"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="95dp"
+        />
+</RelativeLayout>

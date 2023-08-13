@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".IndexActivity">
+
+    <ImageView
+        android:layout_width="65dp"
+        android:layout_height="55dp"
+        android:src="@drawable/mainlogo"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="65dp"
+        android:text="ScanYour MeaL"
+        android:textColor="@color/purple_200"
+        android:textSize="36dp"
+        android:textStyle="italic"
+
+        />
+
+    <ImageButton
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/logoutButton"
+        android:layout_marginLeft="355dp"
+        android:src="@drawable/ic_baseline_person_24"
+        android:color="@color/black"
+        android:background="@color/black"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="335dp"
+        />
+
+    <ImageButton
+        android:id="@+id/popcorn"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="75dp"
+        android:src="@drawable/popcorn"
+        />
+
+    <ImageButton
+        android:id="@+id/colddrink"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="255dp"
+        android:layout_marginLeft="205dp"
+        android:src="@drawable/colddrink"
+        />
+
+    <ImageButton
+        android:id="@+id/nachos"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="75dp"
+        android:src="@drawable/nachos1"
+        />
+
+    <ImageButton
+        android:id="@+id/icecream"
+        android:layout_width="105dp"
+        android:layout_height="105dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="205dp"
+        android:src="@drawable/icecream"
+        />
+
+    <ImageButton
+        android:id="@+id/aboutus"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="30dp"
+        android:src="@drawable/ic_baseline_person_pin_circle_24"
+        android:background="@color/black"
+         />
+
+    <ImageButton
+        android:id="@+id/service"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="130dp"
+        android:src="@drawable/ic_baseline_miscellaneous_services_24"
+        android:background="@color/black"
+        />
+
+    <ImageButton
+        android:id="@+id/profile"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="230dp"
+        android:src="@drawable/ic_baseline_person_24"
+        android:background="@color/black"
+        />
+
+    <ImageButton
+        android:id="@+id/home"
+        android:layout_width="55dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="680dp"
+        android:layout_marginLeft="320dp"
+        android:src="@drawable/ic_baseline_home_24"
+        android:background="@color/black"
+        />
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="55dp"
+        app:lottie_rawRes="@raw/beverage"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        />
+
+    <EditText
+        android:id="@+id/et1"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="290dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"
+        android:hint="Enter Name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <EditText
+        android:id="@+id/et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/ic_baseline_vpn_key_24"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/white"
+        android:password = "true"
+        android:textColorHint="@color/white"
+        android:hint="Enter Password" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginButton"
+        android:text="LOGIN"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="135dp"
+        />
+
+    <TextView
+        android:id="@+id/signupTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="550dp"
+        android:text="New To ScanYourMeal ?"
+        android:textColor="@color/white" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signupMainButton"
+        android:text="Signup"
+        android:layout_marginTop="535dp"
+        android:layout_marginLeft="255dp"
+        />
+</RelativeLayout>
